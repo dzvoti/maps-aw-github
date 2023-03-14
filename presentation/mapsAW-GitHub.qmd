@@ -1,0 +1,221 @@
+---
+title: "FAIR Data/Script Management and Sharing"
+subtitle: "Git, GitHub and RStudio"
+author: "Liberty Mlambo"
+format: 
+      revealjs:
+        # incremental: true
+        logo: data/Nottingham-logo.png
+        slide-number: true
+        institute: "University of Nottingham"
+        standalone: true
+        embed-resources: true
+        preview-links: false
+        # footer: "Using GIT and GitHub with R and Rstudio"
+        number-sections: false
+        multiplex: true
+        incremental: false
+        slide-tone: false
+        touch: true
+        toc: true
+        toc-depth: 1
+        toc-title: "Contents"
+        auto-stretch: true
+        # scrollable: true
+
+editor: source
+---
+
+# Introduction
+
+# FAIR
+
+## FAIR Principles
+
+What is FAIR Data?
+
+- **F**indable
+- **A**ccessible
+- **I**nteroperable
+- **R**eusable
+
+## Interoperable and Reusable
+
+-   **Interoperable:** Data can be used by different systems and software
+-   **Reusable:** Data can be used by different people
+
+## FAIR in R and RStudio
+
+::: columns
+::: {.column width="50%"}
+![](data/setwd.png){fig-align="center"}
+:::
+::: {.column width="50%"}
+- project folder to organise your work
+- consistent naming convention for your files
+- `renv()` to manage your R packages
+- `here()` to manage your file paths
+:::
+:::
+
+# Recommended tools
+
+## `renv()` package
+
+-  `renv` is a package that helps you create reproducible projects by managing the versions of your R packages
+-  `renv` creates a local library of packages that are specific to your project
+-  `renv` creates a lockfile that contains the versions of all the packages used in your project
+
+## `here()` package
+
+-  `here()` is a package that helps you manage your file paths
+-  `here()` allows you to use relative paths to your project folder
+-  `here()` allows you to use the same code on different computers
+
+
+## Sharing files
+
+-  Emailing files is not a good idea
+-  Cannot track changes
+-  Cannot share with multiple people
+-  Not secure
+
+# Git and GitHub
+
+## Why use GIT and GitHub to collaborate?
+
+-   Geographically spaced team
+-   Speed of integrating changes
+-   Different Integrated Development Environment(IDEs) preferences i.e. [RStudio](https://rstudio.com/products/rstudio/download/), [Visual Studio Code](https://code.visualstudio.com/)
+-   Data security and compliance with [EU -General - - Data Protection Regulation (GDPR)](https://gdpr-info.eu/) ![](data/tools.png){fig-align="center"}
+
+
+## Git
+
+::: columns
+::: {.column width="70%"}
+::: {.callout-tip icon="false"}
+## Open source
+:::
+
+::: {.callout-tip icon="false"}
+## Tracks file changes
+:::
+
+::: {.callout-tip icon="false"}
+## Branch based non-linear workflows
+:::
+
+::: {.callout-tip icon="false"}
+## IDE intergration
+:::
+
+::: {.callout-tip icon="false"}
+## Speed of work
+:::
+
+::: {.callout-important icon="false"}
+## Local environment
+:::
+:::
+
+::: {.column width="30%"}
+![](data/git-icon-logo.png)
+:::
+:::
+
+
+## Fremium Repository based
+
+-   Fremium cloud based version control using Git
+-   Repository based (Projects) [![](data/git-repositories-2.png)](https://github.com/dzvoti)
+
+## Built-in security
+
+[![](data/git-repositories-3.png)](https://github.com/dzvoti)
+
+## File History Tracking
+
+[![](data/git-repositories-4.png)](https://github.com/dzvoti)
+
+## Unlimited Public/ Private Repositories
+
+[![](data/git-repositories-5.png)](https://github.com/dzvoti)
+
+## Track issues and task progress
+
+[![](data/git-repositories-6.png)](https://github.com/dzvoti)
+
+## Track issues and task progress
+
+[![](data/git-repositories-7.png)](https://github.com/dzvoti)
+
+## Lessons learnt
+
+::: columns
+::: {.column width="50%"}
+::: {.callout-tip icon="false"}
+## Cloud storage and collaboration very important and a key focus area
+:::
+
+::: {.callout-tip icon="false"}
+## Reproducibility through version tracking is fundamental
+:::
+
+::: {.callout-tip icon="false"}
+## Choose tools carefully to avoid security lapses
+:::
+
+::: {.callout-important icon="false"}
+## CTRL + ALT + SHIFT+F (Git Urgent)
+:::
+:::
+
+::: {.column width="50%"}
+[![](data/git-repositories-8.png)](https://github.com/dzvoti)
+:::
+:::
+
+# Practical demonstration
+
+## Assumptions and Requirements
+
+Assumptions
+
+-   Computer (Mac, Windows, Linux, etc..) with administrative privileges
+-   Software download and installation experience
+
+Requirements
+
+-   GitHub account
+-   GitHub desktop
+-   Git
+
+## [Github signup](https://github.com/)
+
+[![](data/github-signup.png)](https://github.com/)
+
+## [Github desktop download](https://desktop.github.com/)
+
+[![](data/git-desktop.png)](https://desktop.github.com/)
+
+## [Github desktop documentation](https://docs.github.com/en/desktop)
+
+[![](data/git-docs.png)](https://docs.github.com/en/desktop)
+
+
+## [Git](https://git-scm.com/downloads)
+
+[![](data/git-download.png)](https://git-scm.com/downloads)
+
+# Further reading
+
+## Further reading
+
+-  [GitHub Docs](https://docs.github.com/en)
+-  [GitHub glossary](https://docs.github.com/en/get-started/quickstart/github-glossary)
+-  [Happy Git and GitHub for the useR](https://happygitwithr.com/)
+-  [Git, GitHub, & GitHub Desktop for beginners](https://www.youtube.com/watch?v=8Dd7KRpKeaE)
+
+# Questions?
+
